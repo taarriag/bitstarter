@@ -116,7 +116,6 @@ if(require.main == module) {
 		checkJson = checkHtmlFile(htmlFile(program.file),
 					program.checks);
 		showOutput(checkJson);
-		
 	}
 
 	if(program.url)
